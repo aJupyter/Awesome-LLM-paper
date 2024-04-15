@@ -106,7 +106,8 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>Other</th>
     </tr>
     <tr>
-        <th>……</th>
+        <th>Improving Text Embeddings with Large Language Models
+</th>
         <th>……</th>
         <th>……</th>
         <th>……</th>
