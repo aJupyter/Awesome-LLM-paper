@@ -108,7 +108,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     <tr>
         <th>Improving Text Embeddings with Large Language Models
 </th>
-        <th>……</th>
+        <th>https://arxiv.org/abs/2401.00368</th>
         <th>……</th>
         <th>……</th>
     </tr>
