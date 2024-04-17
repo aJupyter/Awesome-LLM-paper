@@ -13,17 +13,17 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 ## Contents
 
 - [Awesome-LLM-paper](#awesome-llm-paper)
-  - [Contents](#contents)
+    - [Contents](#contents)
 - [Resources](#resources)
-  - [Workshops and Tutorials](#workshops-and-tutorials)
+    - [Workshops and Tutorials](#workshops-and-tutorials)
 - [Papers](#papers)
-  - [Survey](#survey)
-  - [Benchmark and Evaluation](#benchmark-and-evaluation)
-  - [RAG](#rag)
-  - [Embedding](#embedding)
-  - [LLM](#llm)
-  - [Agent](#agent)
-  - [MMLM](#mmlm)
+    - [Survey](#survey)
+    - [Benchmark and Evaluation](#benchmark-and-evaluation)
+    - [RAG](#rag)
+    - [Embedding](#embedding)
+    - [LLM](#llm)
+    - [Agent](#agent)
+    - [MMLM](#mmlm)
 - [🌟 Contributors](#-contributors)
 - [Star History](#star-history)
 
@@ -55,6 +55,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 # Papers
 
 ## Survey
+
 <table>
     <tr>
         <th>Paper</th>
@@ -74,8 +75,8 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     </tr>
 </table>
 
-
 ## Benchmark and Evaluation
+
 <table>
     <tr>
         <th>Paper</th>
@@ -95,9 +96,8 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     </tr>
 </table>
 
-
-
 ## RAG
+
 <table>
     <tr>
         <th>Paper</th>
@@ -106,19 +106,25 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>Other</th>
     </tr>
     <tr>
-        <th><a href="https://arxiv.org/abs/2401.00368">Improving Text Embeddings with Large Language Models</a>
-</th>
+        <th><a href="https://arxiv.org/abs/2401.00368">Improving Text Embeddings with Large Language Models</a></th>
+        <th></th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2312.10997">Retrieval-Augmented Generation for Large Language Models: A Survey</a></th>
         <th></th>
         <th>……</th>
         <th>……</th>
     </tr>
     <tr>
         <th colspan="1">Descriptions</th>
-        <td colspan="3">……</td>
+        <td colspan="3">This paper provides a comprehensive overview of the integration of retrieval mechanisms with generative processes within large language models to enhance their performance and knowledge capabilities.</td>
     </tr>
 </table>
 
 ## Embedding
+
 <table>
     <tr>
         <th>Paper</th>
@@ -139,6 +145,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 </table>
 
 ## LLM
+
 <table>
     <tr>
         <th>Paper</th>
@@ -147,18 +154,29 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>Other</th>
     </tr>
     <tr>
-        <th>……</th>
+        <th><a href="https://arxiv.org/abs/2402.08562">Higher Layers Need More LoRA Experts</a></th>
         <th>……</th>
         <th>……</th>
         <th>……</th>
     </tr>
     <tr>
         <th colspan="1">Descriptions</th>
-        <td colspan="3">……</td>
+        <td colspan="3">In deep learning models, higher layers require more LoRA (Low-Rank Adaptation) experts to enhance the model’s expressive power and adaptability.</td>
+    </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2310.06839">LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression</a></th>
+        <th>……</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">To accelerate and enhance the performance of large language models (LLMs) in handling long texts, compressing prompts can be an effective method.</td>
     </tr>
 </table>
 
 ## Agent
+
 <table>
     <tr>
         <th>Paper</th>
@@ -179,6 +197,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 </table>
 
 ## MMLM
+
 <table>
     <tr>
         <th>Paper</th>
@@ -198,13 +217,33 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     </tr>
 </table>
 
+## Reinforcement Learning
 
+<table>
+    <tr>
+        <th>Paper</th>
+        <th>Source</th>
+        <th>Link</th>
+        <th>Other</th>
+    </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2208.06193">Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning</a></th>
+        <th>ICLR2023</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">Diffusion strategies, as a highly expressive class of policies, are used in offline reinforcement learning scenarios to improve learning efficiency and decision-making performance.</td>
+    </tr>
+</table>
 
 # 🌟 Contributors
+
 <a href="https://github.com/aJupyter/Awesome-LLM-paper/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=aJupyter/Awesome-LLM-paper" />
 </a>
 
-#  Star History
+# Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=aJupyter/Awesome-LLM-paper&type=Date)](https://star-history.com/#aJupyter/Awesome-LLM-paper&Date)
