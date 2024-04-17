@@ -245,6 +245,13 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th colspan="1">Descriptions</th>
         <td colspan="3">The paper introduces Sentence-BERT (SBERT), a modification of the BERT network that employs siamese and triplet network structures to produce semantically meaningful sentence embeddings that can be compared using cosine similarity, thereby significantly enhancing the efficiency of sentence similarity search and clustering tasks.</td>
     </tr>
+
+
+</table>
+
+## Fine-tuning
+
+<table>
     <tr>
         <th><a href="https://arxiv.org/abs/2110.04366">Towards a Unified View of Parameter-Efficient Transfer Learning</a></th>
         <th>ICLR2022'Carnegie Mellon University</th>
@@ -287,7 +294,6 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 
 这篇论文提出了一种名为“前缀微调”的轻量级替代微调的方法，用于自然语言生成任务。与微调修改所有语言模型参数不同，前缀微调保持参数冻结，并优化一个小的连续任务特定向量 (称为前缀)。这使得前缀微调比微调更有效，尤其是在数据量较小的背景下。</td>
     </tr>
-
 </table>
 
 ## Prompt/Context
