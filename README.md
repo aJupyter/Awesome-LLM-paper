@@ -247,7 +247,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th><a href="https://arxiv.org/abs/2305.14314">QLoRA: Efficient Finetuning of Quantized LLMs</a></th>
         <th>NeurIPS2023'University of Washington</th>
         <th><a href="https://www.bilibili.com/video/BV1MH4y1Y7wW?p=6&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
-        <th><a href="https://github.com/artidoro/qlora">LoRA: Efficient Finetuning of Quantized LLMs
+        <th><a href="https://github.com/artidoro/qlora">LoRA: Efficient Finetuning of Quantized LLMs</a></th>
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper introduces QLoRA, a method for fine-tuning LLMs that significantly reduces memory usage. QLoRA achieves this by:
@@ -268,7 +268,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th><a href="https://arxiv.org/abs/2101.00190">Prefix-Tuning: Optimizing Continuous Prompts for Generation</a></th>
         <th>ArXive2021'Stanford University</th>
         <th><a href="https://www.bilibili.com/video/BV1MH4y1Y7wW?p=2&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
-        <th>....</th>
+        <th><a href="https://github.com/artidoro/qlora">QLoRA: Efficient Finetuning of Quantized LLMs</a></th>
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper introduces prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks. Unlike fine-tuning, which modifies all language model parameters, prefix-tuning keeps them frozen and optimizes a small continuous task-specific vector (called the prefix). This allows prefix-tuning to be more efficient than fine-tuning, especially in low-data settings.
@@ -276,6 +276,25 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 这篇论文提出了一种名为“前缀微调”的轻量级替代微调的方法，用于自然语言生成任务。与微调修改所有语言模型参数不同，前缀微调保持参数冻结，并优化一个小的连续任务特定向量 (称为前缀)。这使得前缀微调比微调更有效，尤其是在数据量较小的背景下。</td>
     </tr>
 
+</table>
+
+## Prompt/Context
+
+<table>
+    </tr>
+        <tr>
+        <th><a href="https://arxiv.org/abs/2305.14160">Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning</a></th>
+        <th>EMNLP2023'Peking University</th>
+        <th><a href="https://www.bilibili.com/video/BV13w411G7HQ/?spm_id_from=333.337.search-card.all.click&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
+        <th><a href="https://github.com/lancopku/label-words-are-anchors">Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning</a></th>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">This paper sheds light on the inner workings of in-context learning (ICL) in LLMs.  While ICL has shown promise in enabling LLMs to perform various tasks through demonstrations, the mechanism behind this learning has been unclear.  The authors investigate this mechanism through the lens of information flow and discover that labels in the demonstrations act as anchors.  These labels serve two key functions: 1) During initial processing, semantic information accumulates within the representations of these label words. 2) This consolidated information acts as a reference point for the LLMs' final predictions.  Based on these findings, the paper introduces three novel contributions: 1) An anchor re-weighting method to enhance ICL performance, 2) A demonstration compression technique to improve efficiency, and 3) An analysis framework to diagnose ICL errors in GPT2-XL.  The effectiveness of these contributions validates the proposed mechanism and paves the way for future research in ICL.
+
+这篇论文通过信息流视角揭示了大型语言模型 (LLM) 中的上下文学习 (ICL) 的内部工作原理。虽然 ICL 在通过演示让大型语言模型执行各种任务方面表现出潜力，但其背后的学习机制一直不清楚。作者通过信息流的视角研究了这种机制，并发现演示中的标签充当锚点作用。这些标签具有两个关键功能：1) 在初始处理过程中，语义信息会累积在这些标签词的表征中。2) 这种整合的信息作为大型语言模型最终预测的参考点。基于这些发现，论文提出了三项原创贡献：1) 提高 ICL 性能的锚点重新加权方法，2) 提高推理效率的演示压缩技术，3) 用于诊断 GPT2-XL 中 ICL 错误的分析框架。这些贡献的有效性验证了所提出的机制，并为 ICL 的未来研究铺平了道路。。</td>
+    </tr>
+
+</table>
 
 
 </table>
