@@ -273,7 +273,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper introduces prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks. Unlike fine-tuning, which modifies all language model parameters, prefix-tuning keeps them frozen and optimizes a small continuous task-specific vector (called the prefix). This allows prefix-tuning to be more efficient than fine-tuning, especially in low-data settings.
 
-Chinese summary: 这篇论文提出了一种名为“前缀微调”的轻量级替代微调的方法，用于自然语言生成任务。与微调修改所有语言模型参数不同，前缀微调保持参数冻结，并优化一个小的连续任务特定向量 (称为前缀)。这使得前缀微调比微调更有效，尤其是在数据量较小的背景下。</td>
+这篇论文提出了一种名为“前缀微调”的轻量级替代微调的方法，用于自然语言生成任务。与微调修改所有语言模型参数不同，前缀微调保持参数冻结，并优化一个小的连续任务特定向量 (称为前缀)。这使得前缀微调比微调更有效，尤其是在数据量较小的背景下。</td>
     </tr>
 
 
