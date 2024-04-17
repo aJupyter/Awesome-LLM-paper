@@ -244,10 +244,10 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <td colspan="3">This paper presents a unified framework for understanding and improving various parameter-efficient transfer learning methods by modifying specific hidden states in pre-trained models, defining a set of design dimensions to differentiate between methods, and experimentally demonstrating the framework's ability to identify important design choices in previous methods and instantiate new parameter-efficient tuning methods that are more effective with fewer parameters.</td>
     </tr>
     <tr>
-        <th><a href="https://arxiv.org/abs/2305.14314">Github: QLoRA</a></th>
+        <th><a href="https://arxiv.org/abs/2305.14314">QLoRA: Efficient Finetuning of Quantized LLMs</a></th>
         <th>NeurIPS2023'University of Washington</th>
         <th><a href="https://www.bilibili.com/video/BV1MH4y1Y7wW?p=6&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
-        <th><a href="https://github.com/artidoro/qlora">LoRA: Efficient Finetuning of Quantized LLMs</a></th>
+        <th><a href="https://github.com/artidoro/qlora">Github: QLoRA</a></th>
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper introduces QLoRA, a method for fine-tuning LLMs that significantly reduces memory usage. QLoRA achieves this by:
