@@ -268,7 +268,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th><a href="https://arxiv.org/abs/2101.00190">Prefix-Tuning: Optimizing Continuous Prompts for Generation</a></th>
         <th>ArXive2021'Stanford University</th>
         <th><a href="https://www.bilibili.com/video/BV1MH4y1Y7wW?p=2&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
-        <th><a href="https://github.com/artidoro/qlora">QLoRA: Efficient Finetuning of Quantized LLMs</a></th>
+        <th>...</th>
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper introduces prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks. Unlike fine-tuning, which modifies all language model parameters, prefix-tuning keeps them frozen and optimizes a small continuous task-specific vector (called the prefix). This allows prefix-tuning to be more efficient than fine-tuning, especially in low-data settings.
@@ -286,7 +286,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th><a href="https://arxiv.org/abs/2305.14160">Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning</a></th>
         <th>EMNLP2023'Peking University</th>
         <th><a href="https://www.bilibili.com/video/BV13w411G7HQ/?spm_id_from=333.337.search-card.all.click&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
-        <th><a href="https://github.com/lancopku/label-words-are-anchors">Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning</a></th>
+        <th><a href="https://github.com/lancopku/label-words-are-anchors">ICL</th>
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper sheds light on the inner workings of in-context learning (ICL) in LLMs.  While ICL has shown promise in enabling LLMs to perform various tasks through demonstrations, the mechanism behind this learning has been unclear.  The authors investigate this mechanism through the lens of information flow and discover that labels in the demonstrations act as anchors.  These labels serve two key functions: 1) During initial processing, semantic information accumulates within the representations of these label words. 2) This consolidated information acts as a reference point for the LLMs' final predictions.  Based on these findings, the paper introduces three novel contributions: 1) An anchor re-weighting method to enhance ICL performance, 2) A demonstration compression technique to improve efficiency, and 3) An analysis framework to diagnose ICL errors in GPT2-XL.  The effectiveness of these contributions validates the proposed mechanism and paves the way for future research in ICL.
