@@ -121,6 +121,16 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>……</th>
         <th>……</th>
     </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2311.09476">ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems</a></th>
+        <th>NAACL 2024</th>
+        <th>……</th>
+        <th><a href="https://github.com/stanford-futuredata/ARES">Code: stanford-futuredata/ARES</a></th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">ARES, an Automated RAG Evaluation System, efficiently evaluates retrieval-augmented generation systems across multiple tasks using synthetic data and minimal human annotations, maintaining accuracy even with domain shifts.</td>
+    </tr>
 </table>
 
 ## Embedding
@@ -172,6 +182,16 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">To accelerate and enhance the performance of large language models (LLMs) in handling long texts, compressing prompts can be an effective method.</td>
+    </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2401.13275">Can AI Assistants Know What They Don't Know?</a></th>
+        <th>Arxiv2024'Fudan University</th>
+        <th>……</th>
+        <th><a href="https://github.com/OpenMOSS/Say-I-Dont-Know">Code: Say-I-Dont-Know</a></th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">The paper explores if AI assistants can identify when they don't know something, creating a "I don't know" dataset to teach this, resulting in fewer false answers and increased accuracy.</td>
     </tr>
 </table>
 
