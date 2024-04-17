@@ -243,6 +243,29 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper presents a unified framework for understanding and improving various parameter-efficient transfer learning methods by modifying specific hidden states in pre-trained models, defining a set of design dimensions to differentiate between methods, and experimentally demonstrating the framework's ability to identify important design choices in previous methods and instantiate new parameter-efficient tuning methods that are more effective with fewer parameters.</td>
     </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2305.14314">QLoRA: Efficient Finetuning of Quantized LLMs</a></th>
+        <th>NeurIPS2023'University of Washington</th>
+        <th>……</th>
+        <th><a href="https://github.com/artidoro/qlora">LoRA: Efficient Finetuning of Quantized LLMs
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">This paper introduces QLoRA, a method for fine-tuning large language models (LLMs) that significantly reduces memory usage. QLoRA achieves this by:
+
+- Using a new data type called 4-bit NormalFloat (NF4) for weights, which is efficient for storing normally distributed weight values.
+- Applying "double quantization" to compress the size of quantization constants. 
+- Employing "paged optimizers" to manage memory spikes during training.
+
+这篇论文提出了一种名为 QLoRA 的大型语言模型 (LLM) 微调方法，可以显著降低内存使用量。QLoRA 通过以下方式实现这一点：
+
+- 使用一种名为 4-bit NormalFloat (NF4) 的新数据类型来存储权重，该数据类型对存储服从正态分布的权重值非常有效。
+- 应用“双量化”来压缩量化常数的尺寸。
+- 采用“分页优化器”来管理训练过程中的内存峰值。
+
+这些创新使 QLoRA 能够在内存有限的单个 GPU (48GB) 上微调大型模型 (例如，65B 参数)。 训练出的模型在聊天机器人基准测试上实现了最先进的性能，甚至在某些情况下超过了 ChatGPT 等先前模型的性能。</td>
+    </tr>
+
+
 
 </table>
 
