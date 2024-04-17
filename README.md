@@ -162,7 +162,19 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>Source</th>
         <th>Link</th>
         <th>Other</th>
+       </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2307.09288">Llama 2: Open Foundation and Fine-Tuned Chat Models</a></th>
+        <th>Arxiv2023'Meta</th>
+        <th><a href="https://www.bilibili.com/video/BV1YK411x7DF/?spm_id_from=333.337.search-card.all.click">bilibili</a></th>
+        <th><a href="https://github.com/meta-llama/llama">Github: Llama</a></th>
     </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">The technical report of Llama 2 from Meta Which is one of the top leaders of the LLMs open-sourced community. The greatest contribution of Llama 2 is the development of a range of pretrained and fine-tuned large language models (LLMs) that not only outperform existing open-source chat models on various benchmarks but are also optimized for dialogue scenarios. Additionally, these models have shown excellent performance in human evaluations of helpfulness and safety, potentially serving as effective substitutes for closed-source models. The Llama 2 project also provides a detailed description of the fine-tuning process and safety enhancements, aimed at fostering further development by the community and contributing to the responsible development of large language models.
+
+本论文是Llama 2 模型发布的技术报告，来自全球最主要的大模型开源领袖之一 Meta。Llama 2的最大贡献是开发了一系列预训练和微调的大型语言模型（LLM），这些模型不仅在多个基准测试中优于现有的开源聊天模型，而且还经过优化，特别适用于对话场景。此外，这些模型在人类评估的帮助性和安全性方面表现出色，可能成为闭源模型的有效替代品。Llama 2项目还提供了对微调过程和安全性提升的详细描述，旨在促进社区基于此工作进一步发展，贡献于负责任的大型语言模型的开发。 </td>
+    </tr> 
     <tr>
         <th><a href="https://arxiv.org/abs/2402.08562">Higher Layers Need More LoRA Experts</a></th>
         <th>Arxiv2024'Northwestern University</th>
