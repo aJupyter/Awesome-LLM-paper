@@ -107,13 +107,13 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     </tr>
     <tr>
         <th><a href="https://arxiv.org/abs/2401.00368">Improving Text Embeddings with Large Language Models</a></th>
-        <th></th>
+        <th>Arxiv2024'Microsoft</th>
         <th>……</th>
         <th>……</th>
     </tr>
     <tr>
         <th><a href="https://arxiv.org/abs/2312.10997">Retrieval-Augmented Generation for Large Language Models: A Survey</a></th>
-        <th></th>
+        <th>Arxiv2023'Tongji University</th>
         <th>……</th>
         <th>……</th>
     </tr>
@@ -155,7 +155,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     </tr>
     <tr>
         <th><a href="https://arxiv.org/abs/2402.08562">Higher Layers Need More LoRA Experts</a></th>
-        <th>……</th>
+        <th>Arxiv2024'Northwestern University</th>
         <th>……</th>
         <th>……</th>
     </tr>
@@ -165,7 +165,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     </tr>
     <tr>
         <th><a href="https://arxiv.org/abs/2310.06839">LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression</a></th>
-        <th>……</th>
+        <th>Arxiv2023'Microsoft</th>
         <th>……</th>
         <th>……</th>
     </tr>
