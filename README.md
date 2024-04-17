@@ -73,6 +73,16 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th colspan="1">Descriptions</th>
         <td colspan="3">……</td>
     </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2312.10997">Retrieval-Augmented Generation for Large Language Models: A Survey</a></th>
+        <th>Arxiv2023'Tongji University</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">This paper provides a comprehensive overview of the integration of retrieval mechanisms with generative processes within large language models to enhance their performance and knowledge capabilities.</td>
+    </tr>
 </table>
 
 ## Benchmark and Evaluation
@@ -110,16 +120,6 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>Arxiv2024'Microsoft</th>
         <th>……</th>
         <th>……</th>
-    </tr>
-    <tr>
-        <th><a href="https://arxiv.org/abs/2312.10997">Retrieval-Augmented Generation for Large Language Models: A Survey</a></th>
-        <th>Arxiv2023'Tongji University</th>
-        <th>……</th>
-        <th>……</th>
-    </tr>
-    <tr>
-        <th colspan="1">Descriptions</th>
-        <td colspan="3">This paper provides a comprehensive overview of the integration of retrieval mechanisms with generative processes within large language models to enhance their performance and knowledge capabilities.</td>
     </tr>
 </table>
 
