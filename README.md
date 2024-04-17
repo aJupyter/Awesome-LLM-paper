@@ -246,17 +246,17 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     <tr>
         <th><a href="https://arxiv.org/abs/2305.14314">QLoRA: Efficient Finetuning of Quantized LLMs</a></th>
         <th>NeurIPS2023'University of Washington</th>
-        <th>……</th>
+        <th><a href="https://www.bilibili.com/video/BV1MH4y1Y7wW?p=6&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
         <th><a href="https://github.com/artidoro/qlora">LoRA: Efficient Finetuning of Quantized LLMs
     <tr>
         <th colspan="1">Descriptions</th>
-        <td colspan="3">This paper introduces QLoRA, a method for fine-tuning large language models (LLMs) that significantly reduces memory usage. QLoRA achieves this by:
+        <td colspan="3">This paper introduces QLoRA, a method for fine-tuning LLMs that significantly reduces memory usage. QLoRA achieves this by:
 
 - Using a new data type called 4-bit NormalFloat (NF4) for weights, which is efficient for storing normally distributed weight values.
 - Applying "double quantization" to compress the size of quantization constants. 
 - Employing "paged optimizers" to manage memory spikes during training.
 
-这篇论文提出了一种名为 QLoRA 的大型语言模型 (LLM) 微调方法，可以显著降低内存使用量。QLoRA 通过以下方式实现这一点：
+这篇论文提出了一种名为 QLoRA 的大型语言模型的方法，可以显著降低内存使用量。QLoRA 通过以下方式实现这一点：
 
 - 使用一种名为 4-bit NormalFloat (NF4) 的新数据类型来存储权重，该数据类型对存储服从正态分布的权重值非常有效。
 - 应用“双量化”来压缩量化常数的尺寸。
