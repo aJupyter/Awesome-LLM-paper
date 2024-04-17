@@ -264,6 +264,17 @@ We strongly encourage researchers in the hope of advancing their excellent work.
 
 这些创新使 QLoRA 能够在内存有限的单个 GPU (48GB) 上微调大型模型 (例如，65B 参数)。 训练出的模型在聊天机器人基准测试上实现了最先进的性能，甚至在某些情况下超过了 ChatGPT 等先前模型的性能。</td>
     </tr>
+        <tr>
+        <th><a href="https://arxiv.org/abs/2101.00190">Prefix-Tuning: Optimizing Continuous Prompts for Generation</a></th>
+        <th>ArXive2021'Stanford University</th>
+        <th><a href="https://www.bilibili.com/video/BV1MH4y1Y7wW?p=2&vd_source=7830a50943e3cd844c66dc7aca159592">bilibili</a></th>
+        <th>....</th>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">This paper introduces prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks. Unlike fine-tuning, which modifies all language model parameters, prefix-tuning keeps them frozen and optimizes a small continuous task-specific vector (called the prefix). This allows prefix-tuning to be more efficient than fine-tuning, especially in low-data settings.
+
+Chinese summary: 这篇论文提出了一种名为“前缀微调”的轻量级替代微调的方法，用于自然语言生成任务。与微调修改所有语言模型参数不同，前缀微调保持参数冻结，并优化一个小的连续任务特定向量 (称为前缀)。这使得前缀微调比微调更有效，尤其是在数据量较小的背景下。</td>
+    </tr>
 
 
 
