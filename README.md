@@ -83,6 +83,17 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th colspan="1">Descriptions</th>
         <td colspan="3">This paper provides a comprehensive overview of the integration of retrieval mechanisms with generative processes within large language models to enhance their performance and knowledge capabilities.</td>
     </tr>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2311.12320">A Survey on Multimodal Large Language Models for Autonomous Driving</a></th>
+        <th>WACV2023'Purdue University</th>
+        <th><a href="https://www.bilibili.com/video/BV14i4y1q74H/">Bilibili: MLM for Autonomous Driving Survey</a></th>
+        <th><a href="https://purduedigitaltwin.github.io/">Github: MLM for Autonomous Driving Survey</a></th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">This paper provides a comprehensive overview of the integration of retrieval mechanisms with generative processes within large language models to enhance their performance and knowledge capabilities.</td>
+    </tr>
+
 </table>
 
 ## Benchmark and Evaluation
