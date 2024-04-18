@@ -141,16 +141,20 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th>Source</th>
         <th>Link</th>
         <th>Other</th>
-    </tr>
+       </tr>
     <tr>
-        <th>……</th>
-        <th>……</th>
-        <th>……</th>
-        <th>……</th>
+        <th><a href="https://arxiv.org/abs/2309.07597">C-Pack: Packaged Resources To Advance General Chinese Embedding</a></th>
+        <th>Arxiv2023'BAAI</th>
+        <th><a href="https://www.bilibili.com/video/BV1VN4y1q7Zt/?spm_id_from=333.337.search-card.all.click&vd_source=7830a50943e3cd844c66dc7aca159592">Bilibili: C-Pack</a></th>
+        <th><a href="https://github.com/FlagOpen/FlagEmbedding">Github: C-Pack</a></th>
     </tr>
     <tr>
         <th colspan="1">Descriptions</th>
-        <td colspan="3">……</td>
+        <td colspan="3">BAAI and Huggingface introduce C-Pack which is an advanced model for Chinese embeddings, significantly outperforming existing models and includes comprehensive benchmarks, a massive dataset, and a range of models.
+BAAI 联合Huggingface 推出的 C-Pack，主打中文嵌入，性能明显优于现有模型，包括全面的基准测试、大规模数据集和多种模型。
+
+
+</td>
     </tr>
 </table>
 
