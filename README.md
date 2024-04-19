@@ -135,7 +135,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     <tr>
         <th><a href="https://arxiv.org/abs/2311.09476">ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems</a></th>
         <th>NAACL 2024</th>
-        <th>……</th>
+        <th><a href="https://www.bilibili.com/video/BV18H4y1W7GL/">bilibili</a></th>
         <th><a href="https://github.com/stanford-futuredata/ARES">Code: stanford-futuredata/ARES</a></th>
     </tr>
     <tr>
