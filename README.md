@@ -23,6 +23,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
     - [Embedding](#embedding)
     - [LLM](#llm)
     - [Agent](#agent)
+    - [Tool Leanrning](#tool-learning)
     - [MMLM](#mmlm)
 - [🌟 Contributors](#-contributors)
 - [Star History](#star-history)
@@ -259,6 +260,20 @@ BAAI 联合Huggingface 推出的 C-Pack，主打中文嵌入，性能明显优�
     <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">The paper introduces Sentence-BERT (SBERT), a modification of the BERT network that employs siamese and triplet network structures to produce semantically meaningful sentence embeddings that can be compared using cosine similarity, thereby significantly enhancing the efficiency of sentence similarity search and clustering tasks.</td>
+        <tr>
+        <th><a href="https://arxiv.org/abs/2401.04088">Mixtral of Experts</a></th>
+        <th>Arxiv2019'UKP Lab</th>
+        <th>……</th>
+        <th><a href="https://github.com/mistralai/mistral-src">Mixtral of Experts</a></th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">Mixtral is a model based on the Transformer architecture with two key differences:
+
+1. Mixtral supports a full dense context length of up to 32,000 tokens;
+2. It utilizes a Mixture of Experts (MoE) layer instead of the traditional feedforward network blocks.
+
+The model is similar to the Mistral 7B architecture, but each layer includes eight feedforward units ("experts"). During processing, a routing network at each layer selects two "experts" to handle and merge the output for each token. Although only two experts’ data are processed per token, different experts may be chosen at each timestep. As a result, while each token has access to 47B parameters, only 13B active parameters are used during inference. Mixtral was trained with a context range of 32k tokens and has outperformed or matched the Llama 2 70B and GPT-3.5 in benchmarks, particularly excelling in mathematics, code generation, and multilingual tasks. Additionally, a specially tuned model—Mixtral 8x7B – Instruct—has surpassed human benchmark models including GPT-3.5 Turbo, Claude-2.1, Gemini Pro, and Llama 2 70B chat models.</td>
     </tr>
 
 
@@ -308,6 +323,15 @@ BAAI 联合Huggingface 推出的 C-Pack，主打中文嵌入，性能明显优�
         <td colspan="3">This paper introduces prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks. Unlike fine-tuning, which modifies all language model parameters, prefix-tuning keeps them frozen and optimizes a small continuous task-specific vector (called the prefix). This allows prefix-tuning to be more efficient than fine-tuning, especially in low-data settings.
 
 这篇论文提出了一种名为“前缀微调”的轻量级替代微调的方法，用于自然语言生成任务。与微调修改所有语言模型参数不同，前缀微调保持参数冻结，并优化一个小的连续任务特定向量 (称为前缀)。这使得前缀微调比微调更有效，尤其是在数据量较小的背景下。</td>
+    <tr>
+        <th><a href="https://arxiv.org/abs/2110.07602">P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks</th>
+        <th>……</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">P-Tuning introduces continuous, differentiable virtual tokens that transform prompts into a learnable embedding layer, processed by an MLP+LSTM layer. Unlike Prefix Tuning, P-Tuning employs these differentiable tokens only at the input level, not at every layer; furthermore, their placement is optional, not necessarily as prefixes. Pre-trained LM embeddings are highly discrete, and initializing virtual tokens randomly can lead to suboptimal local minima as these tokens should be interrelated. Experiments show using a prompt encoder for these tokens accelerates convergence and enhances performance. </td>
     </tr>
 </table>
 
