@@ -353,6 +353,27 @@ BAAI 联合Huggingface 推出的 C-Pack，主打中文嵌入，性能明显优�
     </tr>
 </table>
 
+## Tool Learning
+
+<table>
+    <tr>
+        <th>Paper</th>
+        <th>Source</th>
+        <th>Link</th>
+        <th>Other</th>
+    </tr>
+    <tr>
+        <th>……</th>
+        <th>……</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">……</td>
+    </tr>
+</table>
+
 ## MMLM
 
 <table>
