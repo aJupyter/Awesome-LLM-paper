@@ -136,6 +136,7 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <tr>
         <th colspan="1">Descriptions</th>
         <td colspan="3">Mistral's primary work is achieved through a two-stage prompt process:
+
 1. The first stage generates a pool of candidate tasks through brainstorming prompts.
 2. The second stage synthesizes data from the pool of candidate tasks.
 
