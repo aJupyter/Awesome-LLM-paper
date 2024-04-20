@@ -131,7 +131,17 @@ We strongly encourage researchers in the hope of advancing their excellent work.
         <th><a href="https://arxiv.org/abs/2401.00368">Improving Text Embeddings with Large Language Models</a></th>
         <th>Arxiv2024'Microsoft</th>
         <th>……</th>
-        <th>……</th>
+        <th><a href="https://huggingface.co/intfloat/e5-mistral-7b-instruct">Hugging Face: e5-mistral-7b-instruct</a></th>
+    </tr>
+        <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">Mistral's primary work is achieved through a two-stage prompt process:
+1. The first stage generates a pool of candidate tasks through brainstorming prompts.
+2. The second stage synthesizes data from the pool of candidate tasks.
+
+The author categorizes tasks into two major types - asymmetric tasks where the retrieved pair consists of a query and a document, differentiated by length into short-long matches, long-short matches, long-long matches, and short-short matches, with a classic example being the search engine scenario.
+
+The paper indicates that large language models (LLMs) can significantly improve the quality of text embeddings, partly due to the synthetic data and partly due to the autoregressive capabilities of the LLMs. Moreover, it can streamline multi-stage embedding tasks into a single-stage fine-tuning (SFT) task, simplifying the training process.</td>
     </tr>
     <tr>
         <th><a href="https://arxiv.org/abs/2311.09476">ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems</a></th>
