@@ -327,11 +327,14 @@ The model is similar to the Mistral 7B architecture, but each layer includes eig
         <th><a href="https://arxiv.org/abs/2110.07602">P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks</th>
         <th>ACL2022'Tsinghua University</th>
         <th>……</th>
-        <th><a href="https://github.com/THUDM/P-tuning">Github:</th>
+        <th><a href="https://github.com/THUDM/P-tuning-v2">Github: </th>
     </tr>
     <tr>
         <th colspan="1">Descriptions</th>
-        <td colspan="3">P-Tuning introduces continuous, differentiable virtual tokens that transform prompts into a learnable embedding layer, processed by an MLP+LSTM layer. Unlike Prefix Tuning, P-Tuning employs these differentiable tokens only at the input level, not at every layer; furthermore, their placement is optional, not necessarily as prefixes. Pre-trained LM embeddings are highly discrete, and initializing virtual tokens randomly can lead to suboptimal local minima as these tokens should be interrelated. Experiments show using a prompt encoder for these tokens accelerates convergence and enhances performance. </td>
+        <td colspan="3">The author introduces P-tuning v2, which utilizes deep prompt optimization techniques, such as Prefix Tuning, to improve upon Prompt Tuning and P-Tuning as a universal solution across scales and NLU tasks. Compared to P-tuning, this method incorporates prompt tokens at every layer rather than just at the input layer, bringing two main benefits:
+
+1. More learnable parameters (increasing from 0.01% in P-tuning and Prompt Tuning to 0.1%-3%), while still being efficient.
+2. Embedding prompts into deeper structural layers has a more direct impact on model predictions. </td>
     </tr>
 </table>
 
