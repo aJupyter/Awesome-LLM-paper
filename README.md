@@ -391,6 +391,7 @@ The model is similar to the Mistral 7B architecture, but each layer includes eig
 
 
 ## Ad click prediction 
+
 </table>
     </tr>
         <tr>
