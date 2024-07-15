@@ -286,6 +286,27 @@ BAAI 联合Huggingface 推出的 C-Pack，主打中文嵌入，性能明显优�
 
 The model is similar to the Mistral 7B architecture, but each layer includes eight feedforward units ("experts"). During processing, a routing network at each layer selects two "experts" to handle and merge the output for each token. Although only two experts’ data are processed per token, different experts may be chosen at each timestep. As a result, while each token has access to 47B parameters, only 13B active parameters are used during inference. Mixtral was trained with a context range of 32k tokens and has outperformed or matched the Llama 2 70B and GPT-3.5 in benchmarks, particularly excelling in mathematics, code generation, and multilingual tasks. Additionally, a specially tuned model—Mixtral 8x7B – Instruct—has surpassed human benchmark models including GPT-3.5 Turbo, Claude-2.1, Gemini Pro, and Llama 2 70B chat models.</td>
     </tr>
+    <tr>
+        <th><a href="https://arxiv.org/pdf/2404.04167">Chinese Tiny LLM: Pretraining a Chinese-Centric Large Language Model</a></th>
+        <th></th>
+        <th></th>
+        <th>https://github.com/Chinese-Tiny-LLM/Chinese-Tiny-LLM</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">本研究介绍了CT-LLM，一个优先考虑中文的大型语言模型（LLM），使用12000亿标记的大型语料库，其中8000亿为中文标记。CT-LLM通过从头开始并主要使用中文数据，展现了在理解和处理中文方面的卓越能力，同时通过对齐技术进一步提升。该模型在CHC-Bench上表现出色，在中文任务中表现优异，并展示了其在英语任务中的熟练程度。本研究挑战了主要使用英语语料库训练LLM的现有方法，开辟了新的训练方法视野。通过开源完整的训练过程和相关资源（如MAP-CC和CHC-Bench），我们希望促进学术界和工业界的进一步探索和创新，推动更包容和多功能的语言模型的发展。</td>
+    </tr>
+        </tr>
+        <tr>
+        <th><a href="https://arxiv.org/pdf/2207.07061">Confident Adaptive Language Modeling</a></th>
+        <th>Source</th>
+        <th></th>
+        <th>Other</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">近年来，基于Transformer的大型语言模型（LLM）在许多任务上取得了显著性能提升，但这些进步伴随着模型规模和推理时间成本的增加。实际上，LLM生成的序列包含不同难度级别的任务，一些预测需要模型的全部计算能力，而其他预测则可以用较少的计算资源完成。在本研究中，我们提出了自信自适应语言建模（CALM）框架，该框架根据输入和生成时间步骤动态分配计算资源。我们解决了早期退出解码的挑战，包括置信度衡量标准、将序列级约束连接到每个token的退出决策以及处理由于早期退出导致的隐藏表示缺失。通过理论分析和实验证明，该框架在保持高性能的同时，可将计算量减少至3倍。</td>
+    </tr>
 
 
 </table>
@@ -368,15 +389,14 @@ The model is similar to the Mistral 7B architecture, but each layer includes eig
 </table>
 
 
+
+## Ad click prediction 
 </table>
-
-## Agent
-
-<table>
-    <tr>
-        <th>Paper</th>
+    </tr>
+        <tr>
+        <th><a href="https://arxiv.org/pdf/1708.05123">Deep & Cross Network for Ad Click Predictions</a></th>
         <th>Source</th>
-        <th>Link</th>
+        <th></th>
         <th>Other</th>
     </tr>
     <tr>
@@ -387,8 +407,30 @@ The model is similar to the Mistral 7B architecture, but each layer includes eig
     </tr>
     <tr>
         <th colspan="1">Descriptions</th>
-        <td colspan="3">……</td>
+        <td colspan="3">特征工程对于预测模型的成功至关重要，但常常需要手动操作或详尽搜索。尽管DNN能够自动学习特征交互，但在所有类型的特征交互中效率不高。本文提出了深度与交叉网络（DCN），该网络在保留DNN优势的同时，引入了高效学习特定特征交互的新型交叉网络。DCN在每层显式进行特征交叉，无需手动特征工程，并且增加的复杂性极小。实验结果显示，DCN在CTR预测和密集分类数据集上的模型准确性和内存使用均优于现有最先进算法。</td>
     </tr>
+
+</table>
+
+## Agent
+
+<table>
+    <tr>
+        <th><a href="https://arxiv.org/pdf/2307.07924">ChatDev: Communicative Agents for Software Development</a></th>
+        <th>Source</th>
+        <th>https://github.com/OpenBMB/ChatDev</th>
+        <th>Other</th>
+    </tr>
+    <tr>
+        <th>……</th>
+        <th>……</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">软件开发是一个需要多种技能协同的复杂任务。传统深度学习方法在瀑布模型的不同阶段（如设计、编码和测试）中存在技术不一致性，导致开发过程低效。本文提出了ChatDev，一个由大型语言模型驱动的聊天式软件开发框架，利用自然语言和编程语言的统一沟通方式，促进多代理系统在设计、编码和测试阶段的协作，提高了开发效率。ChatDev通过多轮对话生成解决方案，展示了语言作为多代理协作的桥梁的潜力</td>
+
 </table>
 
 ## Tool Learning
@@ -453,6 +495,25 @@ The model is similar to the Mistral 7B architecture, but each layer includes eig
         <td colspan="3">Diffusion strategies, as a highly expressive class of policies, are used in offline reinforcement learning scenarios to improve learning efficiency and decision-making performance.</td>
     </tr>
 </table>
+<table>
+    <tr>
+        <th>Paper</th>
+        <th>Source</th>
+        <th>Link</th>
+        <th>Other</th>
+    </tr>
+    <tr>
+        <th><a href="https://arxiv.org/pdf/2301.12050">Do Embodied Agents Dream of Pixelated Sheep?: Embodied Decision Making using Language Guided World Modelling</a></th>
+        <th>ICLR2023</th>
+        <th>……</th>
+        <th>……</th>
+    </tr>
+    <tr>
+        <th colspan="1">Descriptions</th>
+        <td colspan="3">强化学习（RL）代理通常没有先验知识，从零开始学习。我们提出使用少量样本的大型语言模型（LLMs）来假设并验证一个抽象世界模型（AWM），以提高RL代理的样本效率。DECKARD代理在Minecraft中进行物品制作，通过两个阶段实现：Dream阶段，代理利用LLM将任务分解为子目标形成AWM；Wake阶段，代理为每个子目标学习策略并验证AWM。这种方法不仅显著提高了样本效率，还能纠正LLM中的错误，成功结合LLMs的噪声信息与环境动态中的知识。</td>
+    </tr>
+</table>
+
 
 # 🌟 Contributors
 
